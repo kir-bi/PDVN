@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Фазы развития рынка — ПДВН</title>
+  <meta name="description" content="7 фаз развития рынка: от инноваторов до commodity. Понимание текущей фазы помогает выбрать стратегию входа.">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="../index.html" class="nav__back" data-nav-back>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+        Назад к встрече
+      </a>
+      <a href="../index.html" class="nav__logo">ПДВН</a>
+    </div>
+  </nav>
+
+  <main class="container">
+    <!-- Page Header -->
+    <header class="page-header">
+      <h1 class="page-header__title">Фазы развития рынка</h1>
+      <p class="page-header__desc">Каждый рынок проходит эволюцию от зарождения до commodity. Понимание текущей фазы помогает выбрать правильную стратегию входа и оценить шансы на успех.</p>
+    </header>
+
+    <!-- Visual Flowchart -->
+    <section class="section animate-on-scroll" id="flowchart">
+      <h2 class="section__title">Карта фаз рынка</h2>
+      <p class="section__desc">Рынок развивается нелинейно — после комбинаторов появляются параллельные ветки, которые в итоге сходятся к commodity.</p>
+
+      <div class="flowchart">
+        <!-- Start -->
+        <div class="flowchart__node flowchart__node--start">⚪ Рынка нет</div>
+        <div class="flowchart__connector"></div>
+
+        <!-- Innovators -->
+        <div class="flowchart__node" style="border-color: var(--success);">
+          🟢 <strong>ИННОВАТОРЫ</strong> — изобретают бизнес-модель, сверхмаржа
+        </div>
+        <div class="flowchart__connector"></div>
+        <div class="flowchart__label">Свято место пусто не бывает ↓</div>
+        <div class="flowchart__connector"></div>
+
+        <!-- Combinators -->
+        <div class="flowchart__node" style="border-color: #eab308;">
+          🟡 <strong>КОМБИНАТОРЫ</strong> — копируют модель, Ctrl+C/V
+        </div>
+        <div class="flowchart__connector"></div>
+
+        <!-- Branch point -->
+        <div class="flowchart__label">Рынок растёт → появляются две ветки</div>
+        <div class="flowchart__connector"></div>
+
+        <div class="flowchart__branch">
+          <div class="flowchart__branch-arm">
+            <div class="flowchart__label">Конкуренция растёт ↓</div>
+            <div class="flowchart__connector"></div>
+            <div class="flowchart__node" style="border-color: var(--info);">
+              🔵 <strong>ЗАДРОТЫ</strong><br>Системы, BPM, регламенты
+            </div>
+            <div class="flowchart__connector"></div>
+            <div class="flowchart__label">Рынок слишком мал ↓</div>
+          </div>
+
+          <div class="flowchart__branch-arm">
+            <div class="flowchart__label">Курсы появляются ↓</div>
+            <div class="flowchart__connector"></div>
+            <div class="flowchart__node" style="border-color: #f97316;">
+              🟠 <strong>ИНФОЦЫГАНЕ</strong><br>Курсы, снижают порог входа
+            </div>
+            <div class="flowchart__connector"></div>
+            <div class="flowchart__label">Маржа падает ↓</div>
+            <div class="flowchart__connector"></div>
+            <div class="flowchart__node" style="border-color: var(--purple);">
+              🟣 <strong>КАПИТАЛИСТЫ</strong><br>Скупают компании, консолидация
+            </div>
+            <div class="flowchart__connector"></div>
+            <div class="flowchart__label">Консолидация ↓</div>
+          </div>
+        </div>
+
+        <div class="flowchart__connector"></div>
+
+        <!-- Commodity -->
+        <div class="flowchart__node" style="border-color: var(--destructive);">
+          🔴 <strong>COMMODITY</strong> — выбор только по цене, маржи нет
+        </div>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- Detailed Phase Cards -->
+    <section class="section animate-on-scroll" id="phases-detail">
+      <h2 class="section__title">Каждая фаза подробно</h2>
+    </section>
+
+    <!-- 1. Innovators -->
+    <div class="phase-card phase-card--innovators animate-on-scroll" style="margin-bottom: 12px;">
+      <span class="phase-card__num">01</span>
+      <h3 class="phase-card__title">🟢 Инноваторы</h3>
+      <p class="phase-card__desc">
+        Первые люди, которые заходят на новый рынок или создают его с нуля. Они видят то, чего другие не видят, и готовы рисковать ради потенциально огромного направления.
+      </p>
+      <p class="phase-card__desc">
+        <strong>Характеристики:</strong> высокий риск, высокая маржа, мало конкурентов, рынок ещё не сформирован. Продукт может быть сырым, но спрос уже зарождается.
+      </p>
+      <p class="phase-card__desc"><strong>Примеры:</strong> Тиньков (банк без отделений), Маск (электромобили), Седов (частный город).</p>
+      <div class="phase-card__traits">
+        <span class="tag tag--success">Высокая маржа</span>
+        <span class="tag tag--success">Мало конкурентов</span>
+        <span class="tag tag--warning">Высокий риск</span>
+        <span class="tag">Рынок формируется</span>
+      </div>
+    </div>
+
+    <!-- 2. Combinators -->
+    <div class="phase-card phase-card--combinators animate-on-scroll" style="margin-bottom: 12px;">
+      <span class="phase-card__num">02</span>
+      <h3 class="phase-card__title">🟡 Комбинаторы</h3>
+      <p class="phase-card__desc">
+        Люди, которые видят, что инноваторы набили первые шишки, и копируют рабочую модель. «Свято место пусто не бывает» — они заходят в нишу, когда путь уже протоптан.
+      </p>
+      <p class="phase-card__desc">
+        <strong>Характеристики:</strong> хороший нюх, быстрая адаптация, Ctrl+C/V подхода. Обычно работают 2-3 года в нише, увидев неоптимальности.
+      </p>
+      <p class="phase-card__desc"><strong>Принцип:</strong> смотрят на инноваторов, видят неэффективности и заходят с более оптимизированной моделью.</p>
+      <div class="phase-card__traits">
+        <span class="tag tag--success">Хорошая маржа</span>
+        <span class="tag">Копирование модели</span>
+        <span class="tag">Растущий рынок</span>
+        <span class="tag tag--warning">Конкуренция появляется</span>
+      </div>
+    </div>
+
+    <!-- 3. Nerds / Zadrotы -->
+    <div class="phase-card phase-card--nerds animate-on-scroll" style="margin-bottom: 12px;">
+      <span class="phase-card__num">03</span>
+      <h3 class="phase-card__title">🔵 Задроты</h3>
+      <p class="phase-card__desc">
+        Когда конкуренция растёт, выигрывают те, кто строит системы. Задроты — это игроки, которые внедряют CRM, BPM, Bitrix, пишут регламенты и оттачивают процессы.
+      </p>
+      <p class="phase-card__desc">
+        <strong>Характеристики:</strong> фокус на операционной эффективности, инструментальном слое. За счёт технологичности и знания инструментов зарабатывают место под солнцем.
+      </p>
+      <p class="phase-card__desc"><strong>Примечание:</strong> это не негативный окрас — это комплимент тем, кто «задротит» в процессы и технологии.</p>
+      <div class="phase-card__traits">
+        <span class="tag">Системы и регламенты</span>
+        <span class="tag">BPM, CRM, автоматизация</span>
+        <span class="tag tag--warning">Маржа снижается</span>
+        <span class="tag">Борьба за эффективность</span>
+      </div>
+    </div>
+
+    <!-- 3.1 Infocygane -->
+    <div class="phase-card phase-card--infocygane animate-on-scroll" style="margin-bottom: 12px;">
+      <span class="phase-card__num">3.1</span>
+      <h3 class="phase-card__title">🟠 Инфоцыгане</h3>
+      <p class="phase-card__desc">
+        Параллельно с задротами появляются люди, которые создают курсы о том, как строить бизнес в этой нише. Они снижают порог входа для новичков, что резко увеличивает конкуренцию.
+      </p>
+      <p class="phase-card__desc">
+        <strong>Характеристики:</strong> создают обучающие программы, «упаковывают» знания задротов для массового рынка. Результат — вход в нишу становится доступным.
+      </p>
+      <p class="phase-card__desc"><strong>Последствие:</strong> рынок наполняется новичками, конкуренция обостряется, маржа падает.</p>
+      <div class="phase-card__traits">
+        <span class="tag">Курсы и обучение</span>
+        <span class="tag tag--warning">Снижают порог входа</span>
+        <span class="tag tag--warning">Растёт конкуренция</span>
+        <span class="tag">Параллельно с задротами</span>
+      </div>
+    </div>
+
+    <!-- 4. Capitalists -->
+    <div class="phase-card phase-card--capitalists animate-on-scroll" style="margin-bottom: 12px;">
+      <span class="phase-card__num">04</span>
+      <h3 class="phase-card__title">🟣 Капиталисты</h3>
+      <p class="phase-card__desc">
+        Владельцы большого капитала начинают скупать микрокомпании и консолидировать рынок. Их задача — контролировать основную долю рынка в стране.
+      </p>
+      <p class="phase-card__desc">
+        <strong>Характеристики:</strong> низкая маржинальность компенсируется огромным объёмом. Экспансия через покупку существующих игроков.
+      </p>
+      <p class="phase-card__desc"><strong>Примеры:</strong> Медси (клиники), Сбер (экосистема), Инвитро (анализы), перинатальные центры по всей стране.</p>
+      <div class="phase-card__traits">
+        <span class="tag tag--accent">Консолидация рынка</span>
+        <span class="tag">Скупка компаний</span>
+        <span class="tag tag--warning">Маржа минимальна</span>
+        <span class="tag">Большие объёмы</span>
+      </div>
+    </div>
+
+    <!-- 5. Commodity -->
+    <div class="phase-card phase-card--commodity animate-on-scroll" style="margin-bottom: 12px;">
+      <span class="phase-card__num">05</span>
+      <h3 class="phase-card__title">🔴 Commodity</h3>
+      <p class="phase-card__desc">
+        Финальная стадия — рынок полностью зрелый. Продукт стал товаром массового потребления, дифференциация минимальна. Выбор происходит исключительно по цене.
+      </p>
+      <p class="phase-card__desc">
+        <strong>Характеристики:</strong> маржи практически нет, конкуренция по цене, рынок перенасыщен. Место маленьких игроков исчезает.
+      </p>
+      <p class="phase-card__desc"><strong>Примеры:</strong> зерно, бензин, базовые товары — всё, где потребителю безразличен бренд.</p>
+      <div class="phase-card__traits">
+        <span class="tag" style="border-color: rgba(239,68,68,0.3); color: #f87171;">Нет маржи</span>
+        <span class="tag" style="border-color: rgba(239,68,68,0.3); color: #f87171;">Выбор по цене</span>
+        <span class="tag">Рынок перенасыщен</span>
+        <span class="tag">Консолидация завершена</span>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- Key Insights -->
+    <section class="section animate-on-scroll">
+      <h2 class="section__title">Что это значит для тебя?</h2>
+
+      <div class="callout">
+        <div class="callout__title">🎯 Определи фазу своей ниши</div>
+        <p class="callout__text">Прежде чем входить в нишу, определи на какой фазе она находится. Это определит твою стратегию, ожидания по марже и тип конкуренции.</p>
+      </div>
+
+      <div class="callout callout--info">
+        <div class="callout__title">📌 Лучший момент для входа</div>
+        <p class="callout__text">Идеальный вход — на фазе инноваторов или ранних комбинаторов. Чем позже фаза — тем больше нужно ресурсов и тем ниже маржа.</p>
+      </div>
+
+      <div class="callout callout--warning">
+        <div class="callout__title">⚠️ Красные флаги</div>
+        <p class="callout__text">Если в нише уже есть инфоцыгане с курсами и капиталисты скупают компании — рынок созрел. Входить нужно с уникальным позиционированием или не входить вовсе.</p>
+      </div>
+
+      <a href="../index.html" class="source-badge" data-nav-back>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+        Вернуться к материалам встречи
+      </a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>Материалы подготовлены на основе курсов Михаила Гребенюка</p>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>
